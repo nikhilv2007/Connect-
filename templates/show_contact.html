@@ -1,6 +1,6 @@
 <h2>{{contactName}}</h2>
 <ul>
     <li ng-repeat='c in connectionDetails'>
-        <div>{{c.type}} : {{c.value}}</div>
+        <div>{{c.type}} : <a ng-click='launch(c.type, c.value)'>{{c.value}}</a></div>
     </li>
 </ul>

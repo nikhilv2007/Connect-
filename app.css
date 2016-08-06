@@ -1,16 +1,31 @@
+body{
+    margin: 0;
+}
 a{
     text-decoration:none;
-    color: green;
+    color: firebrick;
 }
 
 ul{
     padding: 5px;
+    margin: 5px 0px;
 }
 
 li {
     list-style: none;
     border: 1px solid black;
     border-radius: 25px;
+    padding: 5px 10px;
+    margin: 5px 0px;
+}
+
+li>div{
     padding: 10px;
-    margin: 5px;
+}
+
+h2{
+    margin: 0px;
+    color:white;
+    background-color: black;
+    padding: 5px;
 }
